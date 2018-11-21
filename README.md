@@ -1,3 +1,37 @@
+# Mars Rover
+It accurately outputs the rover's location
+i.e) copy and paste this input as is and click order button.
+5 3
+1 1 E
+RFRFRFRF
+
+3 2 N
+FRRFLLFFRRFLL
+
+0 3 W
+LLFFFLFLFL
+
+output will be
+1 1 E
+3 3 N LOST
+2 3 S
+
+along with visualization using react-vis chart plot.
+
+## TODOS
+improve algorithm
+split codes into simpler functions
+Add keyboard input as controller
+Add user friendly form to make commands.
+
+## Author
+Seunghun Lee
+https://www.seunghunlee.net
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
