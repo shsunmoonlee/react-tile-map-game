@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Karla|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  /* font-family: 'Karla', sans-serif; */
+  color: #323232;
+  font-family: Montserrat, Arial, sans-serif;
+}
+
+body {
+  white-space: pre-line !important;
+}
 .App {
   text-align: center;
 }
@@ -20,6 +32,30 @@
 
 .App-link {
   color: #61dafb;
+}
+.app-layout-content {
+  background: "#fff";
+  /* padding: 24px; */
+  margin: 0;
+  /* min-height: calc(100%) */
+}
+@media only screen and (max-width: 600px) {
+  .app-layout-content {
+    padding: 0px;
+    margin: 0px;
+  }
+  .trigger {
+    padding: 0;
+  }
+  .ant-layout-header {
+    padding: 0;
+  }
+  p {
+    font-size: 1em !important;
+  }
+  .section-introduction {
+    padding: 10px 0 !important;
+  }
 }
 
 @keyframes App-logo-spin {
